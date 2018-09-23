@@ -1,0 +1,4 @@
+{
+  "scripts/test_search.py::TestSearch": true,
+  "scripts/test_search.py::TestSearch::()::test_search2": true
+}

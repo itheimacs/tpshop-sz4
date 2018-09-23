@@ -1,0 +1,66 @@
+{
+  "uid" : "e37fe1ae18cb212d",
+  "name" : "test_search.TestSearch.test_search2",
+  "fullName" : "scripts.test_search.TestSearch.test_search2",
+  "historyId" : "c094b390b169eed7b8f3343a37f62432",
+  "time" : {
+    "start" : 1537426427660,
+    "stop" : 1537426433514,
+    "duration" : 5854
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <scripts.test_search.TestSearch object at 0x110040cf8>\n\n    @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)\n    def test_search2(self):\n>       assert 0\nE       assert 0\n\nscripts/test_search.py:27: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "haoyuexing.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "thread",
+    "value" : "72692-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_search.TestSearch.test_search2"
+  }, {
+    "name" : "package",
+    "value" : "scripts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e37fe1ae18cb212d.json",
+  "parameterValues" : [ ]
+}

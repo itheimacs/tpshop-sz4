@@ -1,0 +1,5 @@
+[
+  "scripts/test_search.py::TestSearch::()::test_search",
+  "scripts/test_search.py::TestSearch::()::test_search1",
+  "scripts/test_search.py::TestSearch::()::test_search2"
+]

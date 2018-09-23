@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","scripts.test_search.TestSearch.test_search","21681",""
+"passed","scripts.test_search.TestSearch.test_search1","7551",""
+"failed","scripts.test_search.TestSearch.test_search2","5854",""

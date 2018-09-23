@@ -1,0 +1,102 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1537426395093" stop="1537426433514">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1537426395093" status="passed" stop="1537426416774">
+      <name>test_search.TestSearch.test_search</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="72692-MainThread"/>
+        <label name="host" value="haoyuexing.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1537426401486" status="passed" stop="1537426416773">
+          <name>放大镜-输入-返回</name>
+          <title>放大镜-输入-返回</title>
+          <attachments/>
+          <steps>
+            <step start="1537426401486" status="passed" stop="1537426402130">
+              <name>点击搜索按钮</name>
+              <title>点击搜索按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1537426402130" status="passed" stop="1537426416619">
+              <name>输入关键字</name>
+              <title>输入关键字</title>
+              <attachments>
+                <attachment source="e73e898a-394b-40ae-bb24-ef8e5e68f5e8-attachment.txt" title="在输入框中输入" type="text/plain"/>
+                <attachment source="5fdcc447-bd80-4bcc-b30d-65aa3d7f842c-attachment.png" title="xxxx" type="image/png"/>
+              </attachments>
+              <steps/>
+            </step>
+            <step start="1537426416619" status="passed" stop="1537426416773">
+              <name>点击返回</name>
+              <title>点击返回</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1537426418191" status="passed" stop="1537426425742">
+      <name>test_search.TestSearch.test_search1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="trivial"/>
+        <label name="thread" value="72692-MainThread"/>
+        <label name="host" value="haoyuexing.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1537426424156" status="passed" stop="1537426425742">
+          <name>放大镜-返回</name>
+          <title>放大镜-返回</title>
+          <attachments/>
+          <steps>
+            <step start="1537426424156" status="passed" stop="1537426424802">
+              <name>点击搜索按钮</name>
+              <title>点击搜索按钮</title>
+              <attachments/>
+              <steps/>
+            </step>
+            <step start="1537426424802" status="passed" stop="1537426425742">
+              <name>点击返回</name>
+              <title>点击返回</title>
+              <attachments/>
+              <steps/>
+            </step>
+          </steps>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1537426427660" status="failed" stop="1537426433514">
+      <name>test_search.TestSearch.test_search2</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_search.TestSearch object at 0x110040cf8&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)
+    def test_search2(self):
+&gt;       assert 0
+E       assert 0
+
+scripts/test_search.py:27: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="trivial"/>
+        <label name="thread" value="72692-MainThread"/>
+        <label name="host" value="haoyuexing.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

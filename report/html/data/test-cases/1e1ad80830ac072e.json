@@ -1,0 +1,142 @@
+{
+  "uid" : "1e1ad80830ac072e",
+  "name" : "test_search.TestSearch.test_search",
+  "fullName" : "scripts.test_search.TestSearch.test_search",
+  "historyId" : "bc3d826dd205e440b4c8c649c4c8b8e",
+  "time" : {
+    "start" : 1537426395093,
+    "stop" : 1537426416774,
+    "duration" : 21681
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "放大镜-输入-返回",
+      "time" : {
+        "start" : 1537426401486,
+        "stop" : 1537426416773,
+        "duration" : 15287
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击搜索按钮",
+        "time" : {
+          "start" : 1537426401486,
+          "stop" : 1537426402130,
+          "duration" : 644
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "输入关键字",
+        "time" : {
+          "start" : 1537426402130,
+          "stop" : 1537426416619,
+          "duration" : 14489
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7717c890cdd86782",
+          "name" : "在输入框中输入",
+          "source" : "7717c890cdd86782.txt",
+          "type" : "text/plain",
+          "size" : 5
+        }, {
+          "uid" : "fd67f704d6cfbd2c",
+          "name" : "xxxx",
+          "source" : "fd67f704d6cfbd2c.png",
+          "type" : "image/png",
+          "size" : 38086
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "点击返回",
+        "time" : {
+          "start" : 1537426416619,
+          "stop" : 1537426416773,
+          "duration" : 154
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "haoyuexing.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "72692-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_search.TestSearch.test_search"
+  }, {
+    "name" : "package",
+    "value" : "scripts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e1ad80830ac072e.json",
+  "parameterValues" : [ ]
+}
